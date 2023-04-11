@@ -1,0 +1,176 @@
+#include<stdio.h>
+#include<malloc.h>
+struct node{
+    int data; struct node* next;
+};
+struct node* head = NULL;
+void bins(struct node * new1)
+{
+    struct node * temp = head;
+    if(head == NULL)
+    {
+        head = new1;
+        head -> next = head;
+    }
+    else
+    {
+        new1 -> next = head;
+        while(temp != head)
+        {
+            temp = temp -> next;
+        }
+        temp -> next = new1;
+        head = new1;
+    }
+}
+// insertion at the end
+void eins(struct node * new1)
+{
+    struct node * temp = head;
+    if(head == NULL)
+    {
+        head = new1;
+        head -> next = head;
+    }
+    else
+    {
+        while(temp -> next != head)
+        {
+            temp = temp -> next;
+        }
+        struct node* temp2= temp->next;
+            temp -> next = new1;
+            new1 -> next = temp2;
+    }
+}
+// deletion at the beginning
+void bdel()
+{
+    struct node * temp = head, * temp1 = head;
+    if(head == NULL)
+    {
+        printf("UNDERFLOW");
+    }
+    else if(head -> next == head)
+    {
+        head = NULL;
+    }
+    else
+    {
+        while(temp -> next != head)
+        {
+            temp = temp -> next;
+        }
+        head = head -> next;
+        temp -> next = head;
+        free(temp1);
+        temp1 = NULL;
+    }
+}
+
+// deletion at the end
+void edel()
+{
+    struct node *temp = head, *temp1 = head;
+    if(head == NULL)
+    {
+        printf("UNDERFLOW");
+    }
+    else if(head -> next == head)
+    {
+        head = NULL;
+    }
+    else
+    {
+        while(temp -> next != head)
+        {
+            temp = temp -> next;
+        }
+        while(temp1 != temp)
+        {
+            temp1 = temp1 -> next;
+        }
+        temp -> next = head;
+        free(temp);
+        temp = NULL;
+    }
+}
+
+// traversal
+void print()
+{
+    struct node *temp = head;
+    if(head == NULL)
+    {
+        printf("Underflow");
+    }
+    else
+    {
+        do
+        {
+            printf("%d", temp -> data);
+            temp = temp -> next;
+        }
+        while(temp != head);
+    }
+}
+
+// searching
+void search()
+{
+    int count = 0, n;
+    struct node *temp = head;
+    printf("Enter the element for search : ");
+    scanf("%d", &n);
+    while(temp -> data != n)
+    {
+        count++;
+    }
+    printf("Your searched element is on %d position", count);
+}
+int main()
+{
+    int choice;
+    struct node *ptr;
+    int x = 1;
+    while (x == 1)
+    {
+
+        printf("\npress 1 for insertion at the beganing;\npress 2 for insertion at the end;\npress 3 for delition from the end;\npress 4 to delition at the beg;\npress 5 to print all the entries;\npress 6 to search;\npress 7 to exit;\n Enter: ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+        case 1:
+            ptr = (struct node *)malloc(sizeof(struct node));
+            printf("Enter you data: ");
+            scanf("%d", &ptr->data);
+            ptr->next = NULL;
+            bins(ptr);
+            break;
+        case 2:
+            ptr = (struct node *)malloc(sizeof(struct node));
+            printf("Enter you data: ");
+            scanf("%d", &ptr->data);
+            ptr->next = NULL;
+            eins(ptr);
+            break;
+        case 3:
+            bdel();
+            break;
+        case 4:
+            edel();
+            break;
+        case 5:
+            print();
+            break;
+        case 6:
+            search();
+            break;
+        case 7:
+            x = 0;
+            break;
+        default:
+            printf("Invalid input.\n");
+        }
+    }
+}
