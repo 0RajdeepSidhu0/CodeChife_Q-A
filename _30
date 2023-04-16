@@ -1,0 +1,46 @@
+
+import re
+str1 = "This is my Python presentation for my python class, \neven though i requested to not assign anythin on wednesday."
+print("Orignal String: \n"+str1)
+# search
+pattern = r"class"
+check = re.search(pattern, str1)
+
+if check:
+    print("Match found:", check.group())
+else:
+    print("Match not found.")
+# replace one sring with other
+pattern = r"Python"
+replace = "C++"
+str2 = re.sub(pattern, replace, str1)
+print("After replacing")
+print(str2)
+
+
+dec1 = {}
+list1 = ['H','e','l','l','o']
+rollno = [1,2,3,4,5]
+dec2 = {'key1': list1,'key2': rollno,'key3':'B24'}
+
+#to print the name of keys
+print("\n")
+for i in dec2:
+    print(i,end=" ");
+print("\n")
+#to print the values inside keys
+for i in dec2.values():
+    print(i, end=" ") 
+print("\n")
+#to print keys with thier values
+for i in dec2.items():
+    print(i,end=" ")
+print("\n")
+#to print values of specific keys
+print(dec2['key2'])
+print("\n")
+#to print the whole dictionary
+print(dec2); print("\n")
+#if you use same key again it will overwrite it
+dec2['key3'] = 'b77'
+print(dec2); print("\n")
