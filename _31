@@ -1,0 +1,17 @@
+import re
+str1 = "This is my Python presentation for my python class, \neven though i requested to not assign anything on wednesday."
+print("Orignal String: \n"+str1)
+# search
+pattern = r"class"
+check = re.search(pattern, str1)
+
+if check:
+    print("Match found:", check.group())
+else:
+    print("Match not found.")
+# replace one sring with other
+pattern = r"Python"
+replace = "C++"
+str2 = re.sub(pattern, replace, str1)
+print("After replacing")
+print(str2)
