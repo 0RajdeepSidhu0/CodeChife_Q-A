@@ -1,0 +1,173 @@
+#with open("C:\\Users\\sahin\\OneDrive\\Documents\\Python\\name.txt",'r') as f:
+'''line=f.read()
+c=0
+cv=0
+l=0
+i=line.split()
+for j in i:
+    c+=1
+    if j[0] in 'aeiouAEIOU':
+        cv+=1
+    if len(j)>l:
+        l=len(j)
+name=j
+print('No. of names',c)
+print('No. of names starting with vowels',cv)
+print('Longest name is',name)
+##with open("C:\\Users\\sahin\\OneDrive\\Documents\\Python\\integers.txt",'r') as f:
+line= f.read()
+##    w=line.split()
+##    m=-99999
+##    s=0
+##    c=0
+##    c100=0
+##    for i in w:
+##        s+=int(i)
+##        c+=1
+##        if int(i)>m:
+##            m=int(i)
+##        if int(i)>100:
+##            c100+=1
+##    print('Maximum no. is:',m)
+##    av=float(s/c)
+    print('Average is:',av)
+print('No. of no. greater than 100:',c100)
+'''
+'''
+try:
+    n = int(input("Enter number of test case: "))
+    i=0
+    while(i!=n):
+        print("Enter numbers for Division")
+        try:
+            a = float(input("Enter your 1st number: "))
+            b = float(input("Enter your 2nd number: ")) 
+            print("Result = ", a/b)       
+        except ZeroDivisionError as e:
+            print( e, " is not possible")
+        except ValueError as e:
+            print("!!Invalid input!!\n Division opration is only valid for intiger inputs or decimal veriable")
+        except Exception as e:
+            print("!!Invalid input!!, ", e)
+        i=i+1
+except:
+    print("test case can only have integer value, please try again")
+'''
+'''
+try:
+    print("What do you want to do with a file: ")
+    print("type r to read");print("type w+ to read and overwrite ")
+    print("type r+ to read and append ")
+    t = input("Enter you choice ")
+except ValueError as e:
+    print("!!Invalid input!!\n Please only choice from the above mentioned veriables")
+except Exception as e:
+    print("!!Invalid Input!!", e)
+finally:
+    if(t == 'r'):
+         file1 = open("C:\\Users\\rajde\\OneDrive\\Documents\\c programs1\\Python\\Text1.txt", "t")
+         print(file1.read())
+    elif(t=='w'):
+        w = input("Enter the string you want to write")
+        file1 = open("C:\\Users\\rajde\\OneDrive\\Documents\\c programs1\\Python\\Text1.txt", "t")
+        file1.write(w)
+    elif(t=="r+"):
+        file1 = open("C:\\Users\\rajde\\OneDrive\\Documents\\c programs1\\Python\\Text1.txt", "t")
+        w = input("Enter the string you want to write")
+        file1.write(w)
+        file1.close()
+        file1 = open("C:\\Users\\rajde\\OneDrive\\Documents\\c programs1\\Python\\Text1.txt", "t")
+        print(file1.read())
+'''
+
+#onlione Questions
+
+try:
+    x = int(input("Enter a positive number: "))
+    if x <= 0:
+        raise ValueError("Number must be positive")
+    result = 10 / x
+except ValueError as e:
+    print("please enter only positive integer values")
+except ZeroDivisionError:
+    print("Please inter a postive intigers")
+else:
+    print("Result:", result)
+
+# WAP that finds the square root of a number . 
+# throw an exception if number entered is negative.
+
+
+try:
+    n1 = float(input("Enter a number: "))
+    if(n1>0):
+        print("Squre root of your no. is",n1**.5)
+    else:
+        print("Please only enter positive integer values")
+except ValueError as e:
+    print("!!!Invalid Input!!!")
+    print("Please enter only positive intergers")
+except Exception as e:
+    print("!!!Invalid Input!!!")
+    print(e)
+finally:
+    print("Thnkyou for using our service")
+# Q3- WAP that rethrows an exception
+'''outside help was used'''
+try:
+    a = float(input("Enter a number: "))
+    b = float(input("Enter your 2nd number: "))
+    print(a/b)
+except ZeroDivisionError as e:
+    print("first time exception")
+# Q4- WAP to show the use of finally in python
+try:
+    n1 = float(input("Enter a number: "))
+    if(n1>0):
+        print("Squre root of your no. is",n1**.5)
+    else:
+        print("Please only enter positive integer values")
+except ValueError as e:
+    print("!!!Invalid Input!!!")
+    print("Please enter only positive intergers")
+except Exception as e:
+    print("!!!Invalid Input!!!")
+    print(e)
+finally:
+    print("Thnkyou for using our service")
+# Q5- WAP in which exception thrown 
+# by one function is handled by another function
+try:
+    a = float(input("Enter a number: "))
+    b = float(input("Enter another number: "))
+except ValueError as e :
+    print("!!Invalid Input!!")
+    print("Please only enter intiger or decimal values")
+except Exception as e:
+    print("!!invalid Input!!", e)
+def funct1():
+    print(a/b)
+def funct2():
+    try:
+        funct1()
+    except ZeroDivisionError:
+        print("!!Invalid Input!!, zero in denominator in not possible")
+    except Exception as e:
+        print(e)
+funct2()
+
+'''
+Q1. wap that prints infinit natural no. 
+    and raise a stop itration exception after desplaying first 20 no. to exit the program
+Q2. wap that genrat random number, raise a user defined exception if the no. below 0.1
+Q3. wap to deferntiat b/w class and object veriables
+'''    
+
+        
+
+
+
+
+
+    
+
