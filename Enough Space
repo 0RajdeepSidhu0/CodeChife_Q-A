@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Rajdeep Singh Sidhu
+
 int main(void) {
 	// your code goes here
 	int t;
