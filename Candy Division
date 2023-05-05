@@ -1,5 +1,6 @@
 #include <stdio.h>
-//Rajdeep Singnh Sidhu
+//Author: Rajdeep Singnh Sidhu
+//Date: 5-05-2023
 int main(void) {
 	// your code goes here
 	int t;scanf("%d", &t);
