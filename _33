@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-
+//Date: 22-05-2023
 int main(void) {
 	// your code goes here
 	int T,X;
