@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<math.h>
+
+int main(void) {
+	// your code goes here
+	int T,X;
+	scanf("%d",&T);
+	for(int i=0; i<T;i++)
+	{   float N;
+	    scanf("%f%d",&N,&X);
+	    float c=0; float a=0; 
+	    c=pow(2,X);
+	    a=c-c/2;
+	    if(N>1)
+	    {
+    	    for(int j=1; j<N; j++)
+    	    {   int d;
+    	        d=a/2;
+    	        a=a-d;
+    	    }
+    	    printf("%.0f\n", a);
+	    }
+	    else
+	    {
+	        printf("%.0f\n", a);
+	    }
+	}
+	return 0;
+}
+
