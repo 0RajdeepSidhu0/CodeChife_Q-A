@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;scanf("%d", &t);
+	for(int i=0;i<t; i++)
+	{
+	    int _1st=0,_2nd=0;
+	    int pa,pb,qa,qb;
+	    scanf("%d%d%d%d",&pa,&pb,&qa,&qb);
+	    if(pa>pb|| pa==pb)
+	    {
+	        _1st=pa;
+	    }
+	    else{
+	         _1st = pb;
+	    }
+	    if(qa>pb || qa==qb)
+	    {
+	         _2nd=qa;
+	    }
+	    else{
+	         _2nd=qb;
+	    }
+	    if(_1st<_2nd){
+	        printf("P\n");
+	    }
+	    else if(_1st==_2nd){
+	        printf("TIE\n");
+	    }
+	    else{
+	        printf("Q\n");
+	    }
+	}
+	
+	return 0;
+}
+
