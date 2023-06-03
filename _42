@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include<math.h>
+//Author: Rajdeep Singh Sidhu
+//Date: 03-06-2023
 int main(void) {
 	// your code goes here
 	int T,X;
