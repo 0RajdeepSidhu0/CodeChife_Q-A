@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Date: 21-07-2023
 int main(void) {
 	// your code goes here
 	int x,y;
