@@ -1,6 +1,6 @@
 
 #include <stdio.h> 
-
+//Date: 27-07-2023
 int main() {
 	// Read the number of test cases.
 	int T;
