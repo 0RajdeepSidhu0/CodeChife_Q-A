@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 //Date: 01-08-2023
+
 int main(void) {
 	// your code goes here
 	int t;scanf("%d", &t);
