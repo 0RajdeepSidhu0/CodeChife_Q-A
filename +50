@@ -9,16 +9,9 @@ int main(void) {
 	{
 	    int X,Y,A;
 	    scanf("%d%d%d",&X,&Y,&A);
-	    if(A>=X)
+	    if(A>=X && A<Y)
 	    {
-	        if(A<Y)
-	        {
-	            printf("YES\n");
-	        }
-	        else
-	        {
-	            printf("NO\n");
-	        }
+	        printf("YES\n");
 	    }
 	    else
 	    {
