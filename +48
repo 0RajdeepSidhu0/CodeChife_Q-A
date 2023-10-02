@@ -1,7 +1,6 @@
 #include <stdio.h>
 //Date: 16-07-2023
 int main(void) {
-
 	int t;
 	scanf("%d", &t);
 	for(int i=0; i<t; i++)
