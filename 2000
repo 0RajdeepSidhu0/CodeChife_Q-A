@@ -5,6 +5,7 @@ Q: Chef had collected N notes of Rs.2000 to pay his total college fees. However,
 */
 //Author: Rajdeep Singh Sidhu
 //Date: 02-08-2023
+
 int main(void) {
 	// your code goes here
 	int n;scanf("%d", &n);
