@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 //Rajdeep Singh Sidhu
 //Date: 1-07-2023
+
 int main(void) {
 	// your code goes here
 	int t;scanf("%d", &t);
