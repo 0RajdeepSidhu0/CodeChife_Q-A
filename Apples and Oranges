@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*Author:Rajdeep Singh Sidhu
 Date: 11-03-2023*/
-
 int main(void) {
 	// your code goes here
 	    int x,a,b;
