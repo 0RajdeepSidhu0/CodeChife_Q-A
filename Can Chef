@@ -7,6 +7,7 @@ Note: Chef has to return back to home, so the total distance to be covered would
 //Author: Rajdeep Singh Sidhu
 //Date: 27-08-2023
 int main(void) {
+
 	// your code goes here
 	int t;scanf("%d", &t);
 	for(int i=0; i<t; i++){
