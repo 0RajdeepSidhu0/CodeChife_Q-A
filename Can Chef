@@ -9,7 +9,8 @@ Note: Chef has to return back to home, so the total distance to be covered would
 int main(void) {
 
 	int t;scanf("%d", &t);
-	for(int i=0; i<t; i++){
+	for(int i=0; i<t; i++)
+	{
 	    int x,y;scanf("%d%d", &x,&y);
 	    x=x*15;
 	    if(x>=y*2){
