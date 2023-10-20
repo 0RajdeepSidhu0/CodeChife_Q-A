@@ -1,5 +1,6 @@
 #include <stdio.h>
 //Rajdeep Singh Sidhu
+//Date: 20-10-2023
 int main(void) 
 {
 	int X,Y;
