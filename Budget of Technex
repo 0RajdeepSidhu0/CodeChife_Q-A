@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 //Author: Rajdeep Singh Sidhu
 //date: 21-08-2023
 int main(void) {
