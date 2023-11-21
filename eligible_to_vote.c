@@ -1,21 +1,17 @@
 #include <stdio.h>
 //date: 11-07-2023
 int main(void) {
-	int t;
-	scanf("%d",&t);
-	for(int i=0; i<t; i++)
-	{
 	    int x;
 	    scanf("%d", &x);
-	    if(x>=30)
+	    if(x>=18)
 	    {
-	        printf("YES\n");
+	        printf("YES, You can vote\n");
 	    }
 	    else
 	    {
-	        printf("NO\n");
+	        printf("NO, You can not wote\n");
 	    }
-	}
+
 	return 0;
 }
 
