@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 //Author: Rajdeep Singh Sidhu
 //Date: 23-06-2023
+
 int main(void) {
 	// your code goes here
 	int t;scanf("%d", &t);
