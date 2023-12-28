@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-
+//Author: Rajdeep Singh Sidhu
 int main(void) {
     int t;
     scanf("%d",&t);
