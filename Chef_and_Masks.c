@@ -2,6 +2,7 @@
 
 //Author: Rajdeep Singh Sidhu
 //Date: 26-06-2023
+
 int main(void) {
 
 	int t;scanf("%d", &t);
