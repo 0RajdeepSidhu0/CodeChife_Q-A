@@ -2,6 +2,7 @@
 
 //Author: Rajdeep Singh Sidhu
 //Date: 18-06-2023
+
 int main(void) {
 	// your code goes here
 	int t; scanf("%d",&t);
