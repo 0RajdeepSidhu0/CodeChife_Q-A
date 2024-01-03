@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 //Author: Rajdeep Singh Sidhu
+
 int main(void) {
 	// your code goes here
 	int t;
@@ -18,5 +20,6 @@ int main(void) {
 	    }
 	}
 	return 0;
+	//Author: Rajdeep Singh Sidhu
 }
 
