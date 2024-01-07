@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 //Auther: Rajdeep Singh Sidhu
 //Date: 20-05-2023
 /*
@@ -9,6 +10,7 @@ Good, if it takes exactly X nibbles of memory, where X is a positive integer.
 Not Good, otherwise.
 Given a program which takes N bits of memory, determine whether it is Good or Not Good
 */
+
 int main(void) {
 	// your code goes here
 	int t;scanf("%d",&t);
