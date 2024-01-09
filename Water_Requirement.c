@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 //Author: Rajdeep Singh Sidhu
 int main(void) {
 	// your code goes here
@@ -12,6 +11,7 @@ int main(void) {
 	    x=x*2;
 	    printf("%d\n", x);
 	}
-	return 0;
+	return 0;	
+//Author: Rajdeep Singh Sidhu
 }
 
