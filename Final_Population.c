@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 //Author: Rajdeep Singh Sidhu
 int main(void) {
 	// your code goes here
