@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 Author: Rajdeep Singh Sidhu
 Date: 3-05-2023
