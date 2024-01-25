@@ -2,6 +2,7 @@
 
 //Author: Rajdeep Singh Sidhu
 //Date: 18-08-2023
+
 int main(void) {
 	// your code goes here
 	int t; 
