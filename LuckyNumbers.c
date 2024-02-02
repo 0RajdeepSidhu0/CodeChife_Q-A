@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*Q:Chef calls a number lucky if it contains the digit 7 at least once.
 Given a number X, determine if it is a lucky number or not.*/
 //Author: Rajdeep Singh Sidhu
