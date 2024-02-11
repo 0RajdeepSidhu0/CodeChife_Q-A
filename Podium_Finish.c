@@ -1,7 +1,7 @@
 #include <stdio.h>
 //Author: Rajdeep Singh Sidhu
 int main(void) {
-	// your code goes here
+//Author: Rajdeep Singh Sidhu
 	int t;
 	scanf("%d", &t);
 	for(int i=0; i<t; i++)
