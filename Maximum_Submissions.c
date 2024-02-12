@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*Problem:
 A participant can make 1 submission every 30 seconds. If a contest lasts for 
 X minutes, what is the maximum number of submissions that the participant can make during it?
