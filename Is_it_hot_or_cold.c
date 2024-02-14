@@ -7,7 +7,6 @@ C, find whether the climate is HOT or COLD
 */
 //Author: Rajdeep Singh Sidhu
 //Date: 21-05-2023
-
 int main(void) {
 	// your code goes here
 	int t;scanf("%d", &t);
