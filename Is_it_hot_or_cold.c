@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /*
 Problem :
 Chef considers the climate HOT if the temperature is above
