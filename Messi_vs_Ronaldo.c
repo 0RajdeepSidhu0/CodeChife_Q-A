@@ -5,7 +5,6 @@ Messi has A goals and B assists this season, whereas Ronaldo has X goals and Y a
 Find out the player with more points this season.*/
 //Author: Rajdeep Singh Sidhu
 //Date: 19-08-2023
-
 int main(void) {
 	// your code goes here
 	int a,b,x,y; scanf("%d%d%d%d", &a,&b,&x,&y);
