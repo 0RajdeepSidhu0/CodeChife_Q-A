@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 //Author: Rajdeep Singh Sidhu
 //Date: 29-05-2023
 int main(void) {
