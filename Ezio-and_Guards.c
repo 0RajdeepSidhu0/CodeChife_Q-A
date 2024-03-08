@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
 Problem:
 Ezio can manipulate at most X number of guards with the apple of eden.
