@@ -2,6 +2,7 @@
 Author: Rajdeep Singh Sidhu
 Date: 27-02-23
 */
+
 #include <stdio.h>
 int main(void) {
 	// your code goes here
