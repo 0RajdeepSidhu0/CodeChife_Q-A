@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
+
 #define max 5 // max = 5; and use max everywhere
 int top = -1;
 int stack[max];
